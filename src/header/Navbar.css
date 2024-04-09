@@ -1,0 +1,57 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+ul {
+  gap: 41px;
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  font-family: Exo 2;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.5px;
+  text-align: left;
+}
+
+.logo {
+  font-family: Exo 2;
+  font-size: 40px;
+  font-weight: 600;
+}
+.menu-btn {
+  display: none;
+}
+
+.menu-btn img {
+  width: 40px;
+  height: 40px;
+}
+
+/* MEDIA  */
+@media (max-width: 640px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+
+  ul {
+    display: none;
+    position: absolute;
+    top: -200px;
+    left: 0;
+    right: 0;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}

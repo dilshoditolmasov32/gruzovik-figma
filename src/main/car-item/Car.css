@@ -1,0 +1,49 @@
+.car-section img {
+  max-width: 1245px;
+  width: 100%;
+  margin-top: 151px;
+  margin-bottom: 166px;
+}
+
+@media (max-width: 992px) {
+  .car-section img {
+    margin-top: 120px;
+    margin-bottom: 140px;
+  }
+}
+@media (max-width: 892px) {
+  .car-section img {
+    margin-top: 100px;
+    margin-bottom: 120px;
+  }
+}
+@media (max-width: 792px) {
+  .car-section img {
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 692px) {
+  .car-section img {
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 592px) {
+  .car-section img {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 492px) {
+  .car-section img {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 392px) {
+  .car-section img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

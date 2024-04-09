@@ -1,0 +1,31 @@
+h2 {
+  font-family: Exo 2;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: #363738;
+  margin-bottom: 24px;
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+  gap: 96px;
+  padding: 32px 132px 32px 96px;
+  box-shadow: 0px 4px 15px 0px #0000001f;
+  margin-top: 24px;
+}
+.row__line {
+  width: 86px;
+  border: 3px solid #ffce50;
+}
+
+.paragraph-text1 {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6b6b6c;
+}
