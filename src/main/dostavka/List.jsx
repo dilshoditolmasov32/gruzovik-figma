@@ -24,10 +24,10 @@ const List = () => {
   const listData = data?.map((value, index) => (
     <div className="list__item" key={index}>
       <div>
-        <img src={dostavka} alt="" />
+        <img className="list__item_img" src={dostavka} alt="" />
       </div>
       <div className="">
-        <h5>{value.title}</h5>
+        <h5 className="card-title">{value.title}</h5>
         <div className="row__line"></div>
         <p className="paragraph-text1">{value.text}</p>
       </div>

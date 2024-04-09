@@ -7,13 +7,13 @@
   margin-bottom: 30px;
 }
 
-ul {
+.navbar ul {
   gap: 41px;
   display: flex;
   align-items: center;
 }
 
-ul li {
+.navbar ul li {
   list-style: none;
   font-family: Exo 2;
   font-size: 18px;
@@ -43,7 +43,7 @@ ul li {
     align-items: center;
   }
 
-  ul {
+  .navbar ul {
     display: none;
     position: absolute;
     top: -200px;
